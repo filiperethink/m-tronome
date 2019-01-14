@@ -1,0 +1,3 @@
+rootProject.name = 'mtronome'
+
+include ':app'
