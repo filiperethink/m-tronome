@@ -6,8 +6,9 @@
  * @flow
  */
 import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView } from 'react-native'
 import styles from './styles'
+import Metronome from './screens/Metronome'
 
 type Props = {}
 
@@ -18,9 +19,9 @@ export default class App extends Component<Props> {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to M-tronome!</Text>
-      </View>
+      <SafeAreaView style={styles.main}>
+        <Metronome />
+      </SafeAreaView>
     )
   }
 }
