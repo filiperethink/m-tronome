@@ -3,6 +3,9 @@
   "plugins": [
     "react-native"
   ],
+  "env": {
+    "jest": true
+  },
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true,
